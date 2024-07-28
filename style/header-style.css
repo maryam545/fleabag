@@ -275,6 +275,7 @@ footer {
 .footernav ul {
   display: flex;
   justify-content: center;
+  list-style: none;
 }
 .footernav ul li a {
   color: white;
