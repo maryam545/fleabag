@@ -47,16 +47,16 @@ body {
   display: flex;
 }
 .right-nav {
-  margin-left: 1200px;
+  margin-left: 900px;
 }
 /* cards */
 .cards {
   display: flex;
 }
 .flip-card {
-  margin-left: 180px;
+  margin-left: 95px;
   align-items: center;
-  margin-top: 680px;
+  margin-top: 500px;
   background-color: transparent;
   width: 305px;
   height: 305px;
@@ -101,9 +101,9 @@ body {
 
 .year {
   margin-top: 100px;
-  font-size: 60px;
+  font-size: 40px;
 }
 .score {
   margin-top: 100px;
-  font-size: 60px;
+  font-size: 40px;
 }
