@@ -108,6 +108,68 @@ body {
   font-size: 40px;
 }
 
+/* teaser */
+
+.summary {
+  text-align: center;
+  /* width: 100vw;
+  height: 100vh; */
+}
+
+.teaser {
+  margin: 0 auto;
+}
+
+.teaser-video {
+  border-radius: 20px;
+}
+
+.box-information {
+  background: #ece1e1;
+  width: 800px;
+  height: 70%;
+  margin-top: 100px;
+  display: flex;
+  margin: 0auto;
+  margin-left: 370px;
+}
+.section-information {
+  width: 60%;
+  height: 100%;
+  padding: 60px 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information {
+  width: 700px;
+}
+
+.title {
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #aa1414;
+}
+
+.description > p {
+  color: #5f5f5f;
+}
+.description {
+  margin-bottom: 15px;
+}
+
+.section-poster {
+  width: 40%;
+  height: 100%;
+}
+.img-poster {
+  width: 100%;
+  height: 100%;
+}
+
 /* mary */
 
 .sectionactor {
@@ -237,6 +299,89 @@ body {
 .last:hover .details {
   transition-delay: 0s;
 }
+
+/* shiva */
+
+.Satisfaction {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1 {
+  background-color: #d7e7f0;
+  max-width: 500px;
+  /* height: 285px; */
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.skill-box {
+  margin: 25px 0;
+}
+
+.skill-title {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin-top: 6px;
+}
+
+.skill-per {
+  background-color: rgb(0, 0, 255);
+  /* width: 90%; */
+  height: 100%;
+  border-radius: 6px;
+  position: relative;
+  opacity: 0;
+  animation: skill-per-load 0.6s ease-in-out forwards;
+}
+
+.skill-bar .excellent {
+  width: 61%;
+}
+.skill-bar .good {
+  width: 26%;
+}
+.skill-bar .bad {
+  width: 13%;
+}
+.skill-bar .idea {
+  width: 26%;
+}
+
+@keyframes skill-per-load {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.tooltip {
+  position: absolute;
+  right: -14px;
+  top: -23px;
+  font-size: 9px;
+  background-color: #4070f4;
+  color: #fff;
+  font-weight: 500;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
 /* mary */
 footer {
   background-color: #111;
